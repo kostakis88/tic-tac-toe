@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class Board extends Component {
+class Square extends Component {
   render() {
     return (
-      <div>Board</div>
+      <button className="square"></button>
     );
   }
 }
 
-export default Board;
+export default Square;
